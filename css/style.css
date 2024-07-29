@@ -398,7 +398,7 @@ body.active {
 
 .contact-section {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     padding: 60px 10vw;
     min-height: 100vh;
 }
