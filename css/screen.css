@@ -1,0 +1,113 @@
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+    .toggle-menu {
+        display: none;
+    }
+
+    .navbar {
+        max-width: 1280px;
+        margin: auto;
+    }
+
+    .menu {
+        width: 100%;
+        position: inherit;
+        height: 28px;
+        visibility: visible;
+    }
+
+    .menu-list {
+        padding: 0;
+        flex-direction: row;
+    }
+
+    .menu-item {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-link {
+        font-size: 16px;
+        padding: 5px;
+        margin: 0 10px;
+        font-weight: 700;
+    }
+
+    /* 
+    #  P R O F I L E
+    */
+
+    .profile-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .profile-wrapper {
+        flex-direction: row-reverse;
+        gap: 5%;
+    }
+
+    .profile-image {
+        margin: 0 auto;
+        /* width: 47.5%; */
+    }
+
+    .hero-image {
+        max-height: 310px;
+        max-width: 310px;
+    }
+
+    .profile-info {
+        width: 47.5%;
+    }
+
+    /* 
+    #  S K I L L S
+    */
+
+
+
+    /* 
+    #  P R O J E C T S
+    */
+
+    .projects-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        gap: 5%;
+    }
+
+    .project-card {
+        /* width: 28.33%; */
+        width: 47.5%;
+    }
+
+
+    /* 
+    #  C O N T A C T
+    */
+
+    .contact-wrapper {
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .contact-info {
+        width: 47.5%;
+    }
+
+    .contact-form {
+        width: 47.5%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .profile-section {
+        max-width: 1280px;
+        margin: auto;
+        padding: 60px 128px;
+    }
+}
