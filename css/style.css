@@ -389,6 +389,7 @@ body.active {
 
 .project-details {
     color: var(--color-secondary);
+    font-size: 14px;
 }
 
 /* 
