@@ -483,7 +483,8 @@ textarea {
     background-color: var(--bg-primary);
     border-radius: 12px;
     padding: 8px 16px;
-    height: 60px;
+    min-height: 60px;
+    max-height: 256px;
     appearance: none;
     resize: vertical;
     overflow: auto;
