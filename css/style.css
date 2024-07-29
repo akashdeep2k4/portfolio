@@ -426,10 +426,10 @@ body.active {
 .contact-info {
     margin-top: 32px;
     /* width: max-content; */
-    padding: 12px;
+    /* padding: 12px; */
     /* height: 60px; */
-    border: 2px solid var(--color-primary);
-    border-radius: 32px;
+    /* border: 2px solid var(--color-primary); */
+    /* border-radius: 32px; */
     display: flex;
     align-items: center;
     flex-direction: column;
