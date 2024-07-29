@@ -365,7 +365,7 @@ body.active {
 
 .projects-section {
     padding: 60px 10vw;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .projects-container {
@@ -425,13 +425,15 @@ body.active {
 
 .contact-info {
     margin-top: 32px;
-    width: max-content;
+    /* width: max-content; */
     padding: 12px;
-    height: 60px;
+    /* height: 60px; */
     border: 2px solid var(--color-primary);
     border-radius: 32px;
     display: flex;
     align-items: center;
+    flex-direction: column;
+
 }
 
 .contact-info i {
@@ -442,6 +444,11 @@ body.active {
 .contact-info a {
     font-size: 14px;
     transition: all 0.25s ease-in-out;
+}
+
+.contact-text {
+    margin-top: 16px;
+    color: var(--color-secondary);
 }
 
 .contact-info a:hover {
@@ -484,7 +491,7 @@ textarea {
     border-radius: 12px;
     padding: 8px 16px;
     min-height: 60px;
-    max-height: 256px;
+    /* max-height: 256px; */
     appearance: none;
     resize: vertical;
     overflow: auto;
