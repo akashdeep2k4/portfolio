@@ -53,9 +53,7 @@ toggleTheme.addEventListener("click", function () {
     }
 });
 
-// window.onload = function () {
-//     document.getElementById("form").reset();
-// };
+// Form Submission
 
 const form = document.getElementById("form");
 const result = document.getElementById("result");
