@@ -312,7 +312,7 @@ body.active {
 
 .about-section {
     padding: 60px 10vw;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .about-container {
@@ -327,7 +327,7 @@ body.active {
 
 .skills-section {
     padding: 60px 10vw;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .skills-container {
@@ -397,10 +397,10 @@ body.active {
 */
 
 .contact-section {
-    display: flex;
+    /* display: flex; */
     /* align-items: center; */
     padding: 60px 10vw;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .contact-container {
