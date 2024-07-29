@@ -72,7 +72,7 @@ body.active {
     position: fixed;
     width: 100%;
     height: 60px;
-    padding-top: 32px;
+    padding-top: 16px;
     background-color: var(--bg-primary);
     transition: all 0.25s ease-in-out;
     z-index: 99;
@@ -202,9 +202,9 @@ body.active {
 
 .profile-section {
     padding: 60px 10vw;
-    min-height: 100vh;
+    /* min-height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: center; */
 }
 
 .profile-container {
