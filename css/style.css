@@ -202,9 +202,9 @@ body.active {
 
 .profile-section {
     padding: 60px 10vw;
-    /* min-height: 100vh;
+    min-height: 100vh;
     display: flex;
-    align-items: center; */
+    align-items: center;
 }
 
 .profile-container {
